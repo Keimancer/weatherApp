@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: no-repeat center url(./assets/cityBackground.jpg);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.father-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: calc(50vh - 200px);
+}
+
+.contents{
+  padding: 2rem 5rem;
+  border: 1px transparent solid;
+  border-radius: 15%;
+  background: rgba(255, 255, 255, 0.308);
+}
+
+.contents h1, .contents h2, .contents div, .contents h3, .contents img, .contents h4{
+  background: transparent;
+}
+
+.contents > h1{
+  padding: 1rem 0 1rem 0;
+  font-weight: 600;
+}
+
+.contents > h2{
+  padding: 1rem 0;
+  font-weight: 400;
+}
+
+.middle-info{
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px rgb(60, 0, 109) dotted;
+}
+
+.icon-box{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-box{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+  padding: 0rem .5rem;
+  background: rgb(235, 235, 235);
+  margin-top: 1rem;
+}
